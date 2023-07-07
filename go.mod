@@ -2,7 +2,10 @@ module github.com/kanderoo/pomodoro-warrior
 
 go 1.20
 
-require github.com/charmbracelet/bubbletea v0.24.2
+require (
+	github.com/charmbracelet/bubbles v0.16.1
+	github.com/charmbracelet/bubbletea v0.24.2
+)
 
 require (
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
